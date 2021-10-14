@@ -10,7 +10,6 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route exact path="/home" component={Home} />
         <ProtectedRoute path="/secret" component={Secret} />
-        <Route exact path="/secret" component={Secret} />
       </Switch>
     </div>
   );
